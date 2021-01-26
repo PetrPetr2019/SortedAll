@@ -8,6 +8,9 @@ namespace Sorted
     {
         public void Show()
         {
+            Console.WriteLine("Программа сортировки пузырьком");
+            Console.WriteLine();
+
             Console.WriteLine("Сколько элементов будем сравнивать ?");
             var N = Convert.ToInt32(Console.ReadLine());
             Console.WriteLine("Введите числа для сортировки");
